@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Plenitud</title>
+<meta name="description" content="Política de privacidad de la app Plenitud de Plenitud Iglesia Bíblica.">
+<style>
+  :root { --bg:#f9f6ef; --ink:#1c2a22; --muted:#55645a; --green:#1f3d2f; --gold:#c9a24b; --card:#fffdf8; --line:#e6dcc3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14211a; --ink:#f1ecde; --muted:#b4bfb6; --green:#9ccaa8; --gold:#e0b95e; --card:#1c2d24; --line:#2f4438; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background:#1f3d2f; color:#f1ecde; padding:32px 16px; text-align:center; border-bottom:4px solid var(--gold); }
+  header h1 { margin:0; font-size:1.6rem; }
+  header p { margin:6px 0 0; color:#d8cfae; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 56px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:4px 20px 16px; margin:16px 0; }
+  h2 { color:var(--green); font-size:1.15rem; margin:18px 0 6px; }
+  p, li { color:var(--ink); }
+  ul { padding-left:20px; }
+  .muted { color:var(--muted); font-size:.92rem; }
+  a { color:var(--green); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Política de privacidad</h1>
+  <p>Plenitud · Plenitud Iglesia Bíblica</p>
+</header>
+<main>
+  <p class="muted">Última actualización: 18 de noviembre de 2026</p>
+
+  <section>
+    <h2>Quiénes somos</h2>
+    <p>Plenitud es la app de Plenitud Iglesia Bíblica (identificador <code>com.dzr.plenitud</code>). Sirve para consultar la agenda de la iglesia, las reuniones de domingo, el tema del mes, los cumpleaños y las peticiones de oración. Esta política explica qué datos trata la app y cómo.</p>
+  </section>
+
+  <section>
+    <h2>Qué datos recopilamos de quienes usan la app</h2>
+    <p><strong>Ninguno.</strong> La app no tiene registro ni inicio de sesión para los miembros. No te pide nombre, correo, teléfono ni ubicación, y no usa cookies, publicidad, analíticas ni rastreadores de terceros.</p>
+  </section>
+
+  <section>
+    <h2>Qué contenido muestra la app</h2>
+    <p>Todo el contenido lo publica la iglesia y se lee desde Cloud Firestore (un servicio de Google). Cualquier persona puede consultarlo sin cuenta:</p>
+    <ul>
+      <li>Agenda de eventos, reuniones de domingo, alabanzas y tema del mes.</li>
+      <li>Peticiones de oración y necesidades de hermanos, publicadas por los pastores.</li>
+      <li>Cumpleaños: el nombre y el día del mes, sin año de nacimiento, de las personas que la iglesia decide incluir.</li>
+    </ul>
+    <p>Los nombres de la lista de cumpleaños y de las peticiones los publica la iglesia con el conocimiento de las personas. Si quieres que tu nombre aparezca, cambie o deje de aparecer, avisa a tus pastores o escríbenos al correo de contacto.</p>
+  </section>
+
+  <section>
+    <h2>Acceso de administración</h2>
+    <p>La app incluye un menú oculto para las personas que publican el contenido. Esas cuentas inician sesión con correo y contraseña mediante Firebase Authentication, y solo las cuentas autorizadas por la iglesia pueden modificar contenido. El correo de esas cuentas lo usa únicamente Google para autenticar. La sesión se mantiene en la memoria de la app y se pierde al cerrarla.</p>
+  </section>
+
+  <section>
+    <h2>Qué se guarda en tu dispositivo</h2>
+    <p>Para que la app abra rápido y funcione con mala conexión, guarda una copia del contenido público en una base de datos local. Los cumpleaños del mes consultado se conservan hasta siete días. Esa copia no contiene datos tuyos. Se borra al desinstalar la app o al borrar sus datos desde los ajustes de Android.</p>
+  </section>
+
+  <section>
+    <h2>Servicios de terceros</h2>
+    <ul>
+      <li><strong>Google Firebase (Cloud Firestore y Authentication):</strong> aloja el contenido y autentica a los editores. Al conectarte, Google recibe tu dirección IP como parte normal de cualquier conexión de red. Consulta la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</li>
+      <li><strong>Google Maps y YouTube:</strong> si tocas una ubicación o una alabanza, la app abre esas aplicaciones o el navegador. A partir de ahí aplican sus propias políticas.</li>
+    </ul>
+    <p>No vendemos ni compartimos datos con anunciantes.</p>
+  </section>
+
+  <section>
+    <h2>Niñas, niños y adolescentes</h2>
+    <p>La app no recopila datos personales de nadie, tampoco de menores de edad. No está dirigida específicamente a menores de 13 años.</p>
+  </section>
+
+  <section>
+    <h2>Seguridad</h2>
+    <p>Toda la comunicación con los servidores usa HTTPS. Solo las cuentas de editor autorizadas pueden escribir en el contenido; las demás personas solo pueden leerlo.</p>
+  </section>
+
+  <section>
+    <h2>Tus derechos y contacto</h2>
+    <p>Puedes pedirnos que corrijamos o retiremos tu nombre de los cumpleaños o de cualquier publicación. Escríbenos a <a href="mailto:dzermenordev@gmail.com">dzermenordev@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>Cambios a esta política</h2>
+    <p>Si la app cambia la forma de tratar datos, actualizaremos esta página y la fecha de arriba antes de publicar la nueva versión.</p>
+  </section>
+</main>
+</body>
+</html>
