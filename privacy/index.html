@@ -30,7 +30,7 @@
   <p>Plenitud · Plenitud Iglesia Bíblica</p>
 </header>
 <main>
-  <p class="muted">Última actualización: 18 de noviembre de 2026</p>
+  <p class="muted">Última actualización: 21 de noviembre de 2026</p>
 
   <section>
     <h2>Quiénes somos</h2>
@@ -39,7 +39,8 @@
 
   <section>
     <h2>Qué datos recopilamos de quienes usan la app</h2>
-    <p><strong>Ninguno.</strong> La app no tiene registro ni inicio de sesión para los miembros. No te pide nombre, correo, teléfono ni ubicación, y no usa cookies, publicidad, analíticas ni rastreadores de terceros.</p>
+    <p><strong>Ningún dato personal.</strong> La app no tiene registro ni inicio de sesión para los miembros. No te pide nombre, correo, teléfono ni ubicación, y no usa cookies, publicidad, analíticas ni rastreadores de terceros.</p>
+    <p>Si aceptas recibir avisos, Firebase Cloud Messaging asigna a tu dispositivo un identificador técnico (token de notificaciones) para poder entregarle los mensajes. La iglesia no lo asocia a ninguna persona ni lo usa para otra cosa. Todos los dispositivos reciben los mismos avisos. Puedes desactivarlos en los ajustes de notificaciones del sistema, y el identificador se elimina al desinstalar la app.</p>
   </section>
 
   <section>
@@ -47,6 +48,7 @@
     <p>Todo el contenido lo publica la iglesia y se lee desde Cloud Firestore (un servicio de Google). Cualquier persona puede consultarlo sin cuenta:</p>
     <ul>
       <li>Agenda de eventos, reuniones de domingo, alabanzas y tema del mes.</li>
+      <li>Anuncios de la iglesia y artículos de merch, con sus fotos.</li>
       <li>Peticiones de oración y necesidades de hermanos, publicadas por los pastores.</li>
       <li>Cumpleaños: el nombre y el día del mes, sin año de nacimiento, de las personas que la iglesia decide incluir.</li>
     </ul>
@@ -60,13 +62,14 @@
 
   <section>
     <h2>Qué se guarda en tu dispositivo</h2>
-    <p>Para que la app abra rápido y funcione con mala conexión, guarda una copia del contenido público en una base de datos local. Los cumpleaños del mes consultado se conservan hasta siete días. Esa copia no contiene datos tuyos. Se borra al desinstalar la app o al borrar sus datos desde los ajustes de Android.</p>
+    <p>Para que la app abra rápido y funcione con mala conexión, guarda una copia del contenido público en una base de datos local. Los cumpleaños del mes consultado se conservan hasta siete días. Las fotos ya vistas pueden quedar en la caché de imágenes de la app. Esa copia no contiene datos tuyos. Se borra al desinstalar la app o al borrar sus datos desde los ajustes de Android.</p>
   </section>
 
   <section>
     <h2>Servicios de terceros</h2>
     <ul>
-      <li><strong>Google Firebase (Cloud Firestore y Authentication):</strong> aloja el contenido y autentica a los editores. Al conectarte, Google recibe tu dirección IP como parte normal de cualquier conexión de red. Consulta la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</li>
+      <li><strong>Google Firebase (Cloud Firestore, Authentication y Cloud Messaging):</strong> aloja el contenido, autentica a los editores y entrega los avisos de la iglesia. En iOS los avisos pasan además por el servicio de notificaciones de Apple. Al conectarte, Google recibe tu dirección IP como parte normal de cualquier conexión de red. Consulta la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</li>
+      <li><strong>Fotos de anuncios, merch y avisos:</strong> la app descarga cada foto del sitio donde la iglesia la publicó, por ejemplo GitHub Pages. Ese sitio recibe tu dirección IP como parte normal de la conexión. La app no le envía ningún otro dato.</li>
       <li><strong>Google Maps y YouTube:</strong> si tocas una ubicación o una alabanza, la app abre esas aplicaciones o el navegador. A partir de ahí aplican sus propias políticas.</li>
     </ul>
     <p>No vendemos ni compartimos datos con anunciantes.</p>
