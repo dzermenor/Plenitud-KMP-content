@@ -4,3 +4,4 @@ Archivos públicos de la app Plenitud, publicados con GitHub Pages. El contenido
 
 - `privacy/`: la política de privacidad que pide Google Play.
 - `merch/`: las fotos de la merch. Sube cada foto con un nombre sin espacios ni acentos, en JPG, PNG o WebP. Un par de minutos después aparece en el editor de artículos del menú de administración.
+- `announcements/`: las fotos de los anuncios de Inicio, con las mismas reglas de nombre y formato. Cada foto se publica en `https://dzermenor.github.io/Plenitud-KMP-content/announcements/<nombre>`.
